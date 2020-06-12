@@ -31,3 +31,32 @@
     } else return digit;
     
   }; */ 
+ /*
+  outputArray = orderedNumberArray.map(function(element){ 
+    for (const digit of element){ 
+      if (digit === "3"){
+        return "Won't you be my neighbor";
+      } else  if (digit === "2"){
+        return "Boop!";
+      }else if (digit === "1") {
+        return "Beep!"
+      } else return digit;
+  };
+  for (const element of orderedNumberArray){
+      if (element.includes(3)){
+
+      }
+    }
+      orderedNumberArray.forEach(function(element){
+        for (const digit of element){ 
+          if (digit === "3"){
+            return "Won't you be my neighbor";
+          } else  if (digit === "2"){
+            return "Boop!";
+          }else if (digit === "1") {
+            return "Beep!"
+          } else return digit;
+      };
+      });
+
+  */
