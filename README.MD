@@ -1,6 +1,6 @@
-# _{Application Name}_
+# _Roboger Neighbor_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _Input a number to get a curated response, June 12th, 2020_
 
 #### By _**Teresa Rosinski**_
 
