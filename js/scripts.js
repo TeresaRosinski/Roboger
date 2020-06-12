@@ -15,18 +15,21 @@ function NumberTranslator (number) {
 
   function createOutputArray (orderedNumberArray) {
     let outputArray = [];
-      orderedNumberArray.forEach(function(element){
-        for (const digit of element){ 
-          if (digit === "3"){
-            return "Won't you be my neighbor";
-          } else  if (digit === "2"){
-            return "Boop!";
-          }else if (digit === "1") {
-            return "Beep!"
-          } else return digit;
-      };
-      });
-
+    for (let i = 0; i <= orderedNumberArray.length; i++) {
+      if(orderedNumberArray[i].indexOf(3)> -1){
+        outputArray.push("Won't you be my neighbor");
+      }
+      if(orderedNumberArray[i].indexOf(2)> -1){
+        outputArray.push("Beep!");
+      }
+      if(orderedNumberArray[i].indexOf(1)> -1){
+        outputArray.push("Boop!");
+      } else {
+        outputArray.push(i);
+      }
+      return outputArray;
+    }
+    
   };
   /*
   outputArray = orderedNumberArray.map(function(element){ 
@@ -39,6 +42,23 @@ function NumberTranslator (number) {
         return "Beep!"
       } else return digit;
   };
+  for (const element of orderedNumberArray){
+      if (element.includes(3)){
+
+      }
+    }
+      orderedNumberArray.forEach(function(element){
+        for (const digit of element){ 
+          if (digit === "3"){
+            return "Won't you be my neighbor";
+          } else  if (digit === "2"){
+            return "Boop!";
+          }else if (digit === "1") {
+            return "Beep!"
+          } else return digit;
+      };
+      });
+
   */
 
 };
