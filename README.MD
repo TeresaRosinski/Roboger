@@ -8,6 +8,32 @@
 
 _{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
 
+## Specifications
+
+  * Spec: The program returns "Please Enter a number" if the user puts in non-numerical value.
+    * Input: "y"
+    * Output: "Please enter a number"
+
+   * Spec: The program returns the phrase "Won't you be my neighbor" when the user enters a number that contains the digit "3"
+    * Input: "3", "23", "13", "100003"
+    * Output: "Won't you be my neighbor"
+
+   * Spec: The program returns the phrase "Boop!" when the user enters a number that contains the digit "2" and NOT "3"
+    * Input: "2", "12", "22', "42222"
+    * Output: "Boop!"
+
+   * Spec: The program returns the phrase "Beep!" when the user enters a number that contains the digit "1" and NOT "3" or "2"
+    * Input: "1", "5679991", "09070871"
+    * Output: "BOOP!"
+
+   * Spec: The program returns a list of values that add up to the number inputted, if the inputted number does not contain 1, 2 or 3. 
+    * Input: "4"
+    * Output: "0, 1, 2, 3, 4"
+
+    * Spec: When the spec above occurs, the numbers 1,2 and 3 will be replaced with their 'word' values that were listed above.  
+      * Input: "4"
+      * Output: "0, "Beep!", "Boop!", "Won't you be my nieghbor?", 4"
+
 ## Setup/Installation Requirements
 
 #### Follow this link to view the project in your browser: 
