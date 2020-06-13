@@ -10,6 +10,15 @@ body, html {
   background-size: cover;
   position: relative;
 }
+/*
+.background2 {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("dog.jpg.jpg");
+  height: 50%;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}*/
 
 .hero-text{
   text-align: center; 
@@ -39,9 +48,9 @@ body, html {
   font: verdana; 
     
 }
-
-
-
+#hiddenForm {
+  display: none;
+}
 #results{
   display: none;
 }
