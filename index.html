@@ -17,16 +17,31 @@
       </div>
   </div>
     <div id= "hiddenForm">
-      <form id = "inputNumberForm" >
-        <div class = "form-group">
-          <h4>Enter a number and see what Roboger says: </h4>
-          <label for="number">Enter a whole number greater than 0</label>
-          <input id="number" class = "form-control" type = "number">
+      <form id = "inputNumberForm" class = "row">
+        <div class = "col-md-4">
+
         </div>
-        <button type = "submit" class = "btn">Enter</button>
+        <div class = "col-md-4">
+          <div class = "form-group">
+            <h4>Enter a number and see what Roboger says: </h4>
+            <label for="number">Enter a whole number greater than 0</label>
+            <input id="number" class = "form-control" type = "number">
+          </div>
+          <button type = "submit" class = "btn">Enter</button>
+        </div>
+        <div class = "col-md-4">
+          
+        </div>
       </form>
       <div id = "results">
-        <h1 class ="yourNumber"></h1>
+        <div class = "row">
+          <div class = "col-md-6">
+            <img src = "css/1.jpg" alt ="astronaut">
+          </div>
+          <div class = "col-md-6">
+            <h1 class ="yourNumber"></h1>
+          </div>
+        </div>
       </div>
   </div>
 </body>
