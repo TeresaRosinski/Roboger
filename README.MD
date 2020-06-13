@@ -6,7 +6,7 @@
 
 ## Description
 
-_{This is a program that takes in any number and returns a specific pattern. The program starts by taking a number and then transforming it into an array of numbers starting at 0 and ending at the inputted number. It then transforms the first array into a new array that identifies any element in the array that contains a 1, 2 or 3. It priorizes 3 over 2 and 1, 2 over 2, and prioritizes 1 the least. If the item contains a 3 the program will replace the number with the phrase "Won't you be my neighbor". If the item contains a 2 and no 3 it will replace the item with "Beep!", if the item contains a 1 and no 2 or 3, it will replace the item with "Boop!". If the item does not contain a 1, 2 or 3 - the program will not change it. }_
+_This is a program that takes in any number and returns a specific pattern. The program starts by taking a number and then transforming it into an array of numbers starting at 0 and ending at the inputted number. It then transforms the first array into a new array that identifies any element in the array that contains a 1, 2 or 3. It priorizes 3 over 2 and 1, 2 over 2, and prioritizes 1 the least. If the item contains a 3 the program will replace the number with the phrase "Won't you be my neighbor". If the item contains a 2 and no 3 it will replace the item with "Beep!", if the item contains a 1 and no 2 or 3, it will replace the item with "Boop!". If the item does not contain a 1, 2 or 3 - the program will not change it. _
 
 ## Specifications
 
@@ -36,7 +36,7 @@ _{This is a program that takes in any number and returns a specific pattern. The
 
 ## Setup/Installation Requirements
 
-#### Follow this link to view the project in your browser: 
+#### Follow this link to view the project in your browser: https://teresarosinski.github.io/Roboger/
 #### If you want to download and clone the project, follow these steps:
 ##### Download a code editor such as Visual Studio
 ##### Open your computers' terminal and give GIt your name and email:
