@@ -38,8 +38,8 @@ console.log(NumberTranslator(5));
 //UI Logic
 
 $(document).ready(function(){
-  $("button#hiddenForm").click(function(){
-    $(".hiddenForm").slideToggle(1000);
+  $("button#show").click(function(){
+    $("#hiddenForm").slideToggle(1000);
   });
   $("#inputNumberForm").submit(function(event){
     const numberInput =$("input#number").val();
