@@ -30,7 +30,7 @@ _This is a program that takes in any number and returns a specific pattern. The 
     * Input: "4"
     * Output: "0,BEEP,BOOP, Won't you be my neighbor, 4"
 
-    * Spec: When the spec above occurs, the numbers 1,2 and 3 will be replaced with their 'word' values that were listed above.  
+   * Spec: When the spec above occurs, the numbers 1,2 and 3 will be replaced with their 'word' values that were listed above.  
     * Input: "4"
     * Output: "0, "Beep!", "Boop!", "Won't you be my nieghbor?", 4"
 
