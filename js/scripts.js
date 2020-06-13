@@ -39,6 +39,8 @@ console.log(NumberTranslator(5));
 
 $(document).ready(function(){
   $("button#show").click(function(){
+    $("body").remove("hero-image");
+    $("body").addClass("background2");
     $("#hiddenForm").slideToggle(1000);
   });
   $("#inputNumberForm").submit(function(event){
