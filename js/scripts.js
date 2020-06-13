@@ -16,15 +16,15 @@ function NumberTranslator (number) {
     let outputArray = [];
     for (let i = 0; i <= orderedNumberArray.length; i++) {
       if((orderedNumberArray[i]+ " ").includes("3")){
-      outputArray.push("Won't you be my neighbor ");
+      outputArray.push("Won't you be my neighbor?, ");
       }
       else if((orderedNumberArray[i] + " ").includes("2")){
-      outputArray.push("Boop! ");
+      outputArray.push("Boop!, ");
       }
       else if((orderedNumberArray[i] + " ").includes("1")){
-      outputArray.push("Beep! ");
+      outputArray.push("Beep!, ");
       } else {
-      outputArray.push(i + " ");
+      outputArray.push(i + ", ");
       }
       console.log(outputArray);
     }
