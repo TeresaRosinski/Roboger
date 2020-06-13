@@ -6,7 +6,7 @@
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_{This is a program that takes in any number and returns a specific pattern. The program starts by taking a number and then transforming it into an array of numbers starting at 0 and ending at the inputted number. It then transforms the first array into a new array that identifies any element in the array that contains a 1, 2 or 3. It priorizes 3 over 2 and 1, 2 over 2, and prioritizes 1 the least. If the item contains a 3 the program will replace the number with the phrase "Won't you be my neighbor". If the item contains a 2 and no 3 it will replace the item with "Beep!", if the item contains a 1 and no 2 or 3, it will replace the item with "Boop!". If the item does not contain a 1, 2 or 3 - the program will not change it. }_
 
 ## Specifications
 
@@ -24,11 +24,11 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
    * Spec: The program returns the phrase "Beep!" when the user enters a number that contains the digit "1" and NOT "3" or "2"
     * Input: "1", "5679991", "09070871"
-    * Output: "BOOP!"
+    * Output: "BEEP!"
 
    * Spec: The program returns a list of values that add up to the number inputted, if the inputted number does not contain 1, 2 or 3. 
     * Input: "4"
-    * Output: "0, 1, 2, 3, 4"
+    * Output: "0,BEEP,BOOP, Won't you be my neighbor, 4"
 
     * Spec: When the spec above occurs, the numbers 1,2 and 3 will be replaced with their 'word' values that were listed above.  
       * Input: "4"
@@ -45,11 +45,9 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 #### Click the 'clone or download' link on this the project page
 #### Save the project to your computer and open it up
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
-
 ## Known Bugs
 
-_ _
+_No known bugs _
 
 ## Support and contact details
 
@@ -64,8 +62,6 @@ _This program includes:_
 #### CSS
 
 ### License
-
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
 
 Copyright (c) <2020> <Teresa Rosinski>
 
