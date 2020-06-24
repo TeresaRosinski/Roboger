@@ -7,7 +7,7 @@ function NumberTranslator (number) {
 
   function createOrderedNumberArray(number){
     let orderedNumberArray = [];  // function to create array of numbers from 0 - user input
-    for (let i = 0; i<= number; i++)
+    for (let i = 0; i< number; i++)
     orderedNumberArray.push(i);
     return orderedNumberArray;
   };
